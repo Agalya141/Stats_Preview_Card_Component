@@ -5,21 +5,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Stats Preview Card Component</title>
         <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca:wght@400&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="card">
             <div class="card-header">
                 <picture>
-                    <source media = "(max-width:32.5rem)" srcset="image-header-mobile">
-                    <img src="image-header-mobile.jpg" alt="image-header-mobile">
+                    <source media = "(max-width:32.5rem)" srcset="image-header-mobile.jpg" width="400" height="300">
+                    <img src="image-header-mobile.jpg" alt="image-header-mobile" class="mobile_image">
                 </picture>
                 <picture>
-                    <source media = "(min-width:32.5rem)" srcset="image-product-desktop">
-                    <img src="image-header-desktop.jpg" alt="image-header-desktop">
+                    <source media = "(min-width:32.5rem)" srcset="image-header-desktop.jpg">
+                    <img src="image-header-desktop.jpg" alt="image-header-desktop" class="desktop_image">
                 </picture>
             </div>
             <div class="card-body">
-                <h1 class="title">Get <span class="highlight">insights</span>that help your business grow.</h1>
+                <h1 class="title">Get <span class="highlight">insights</span> that help your business grow.</h1>
                 <p class="description">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency</p>
                 <section class="stats">
                     <div class="stat">
