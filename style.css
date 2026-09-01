@@ -132,20 +132,19 @@ a{
         height:100%;
         object-fit:cover;
     }
-    .description{
+    .title,.description{
         text-align: left;
    }
     .card{
         display:grid;
         grid-template-columns:1fr 1fr;
-        max-width:60rem;
+        max-width:65rem;
         width:90%;
-        height:auto;
+        height:auto; 
     }
     .card-header{
         grid-column:2;
-        grid-row:1;
-        
+        grid-row:1; 
     }
     .card-body{
         grid-column:1;
